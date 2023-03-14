@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tic Tac Toe Game</title>
+
+    <style>
+      body {
+        font-family: monospace;
+        background-color: #D6B5A0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h3>Made by Alexandru Belecci</h3>
+ 
+        <h5>________________________________________________________<h5>
+            <img src="tttgame.JPG" alt="jpg" width="500" height="200" />
+            
+                <h3>
+      This project is based on a Tic Tac Toe game made by me.</h3>
+      <p> Tic Tac Toe is normally played by 2 players, </p>
+        <p>and one player is "X" and second one is "O"</p>
+      <p>and they keep puting their signs in a box that has in 9 quadrants, </p>
+        <p>and which player faster fills up a line from the box, Wins.</p>
+        <h5>________________________________________________________<h5>
+          <h2>[Content]</h2>
+          
+              <p>[Introduction]</p>
+              <p>[Sample Run]</p>
+              <p>[Planning]</p>
+              <p>[The Coding Part]</p>
+              <p>[Designing & How It Works]</p>
+              <p>[Steps in Coding]</p>
+              <p>[Evaluation]</p>
+              <p>[References]</p>
+              <p>[Summary]</p>
+
+
+              <h5>__________________________________<h5>
+        <h2>-[I]-[Introduction]</h2>
+    <h4>
+      The game that i made represents a computer version of the actual game that
+      you can play with the 2nd player. 
+      <p>And i coded the programme to introduce the name of the "1 player" and "2 player" that you can see in the screenshot below.
+<h5>________________________________________________________<h5>
+      <img src="players.JPG" alt="jpg" width="300" height="100" />
+      <h5>________________________________________________________<h5>
+        
+    </h4>
+    
+    <h4>
+      I introduced a "Scoreboard" that writes all the game's results from that
+      moment when you open the game and keeps introducing the results up to that
+      moment when you close the game.
+      <h5>________________________________________________________<h5>
+        <img src="scoreboard.JPG" alt="jpg" width="300" height="100" />
+        <h5>________________________________________________________<h5>
+           
+        </4>
+        
+    
+          <h4> After that on the screen you can see that to the "1 player" is giving a choice between: </h4>
+            <p> "X" by typing "1" </p> 
+            <p> Or "O" by typing "2" </p>
+            <p> Or either to close the game by typing on "3" on the keyboard.  </p>
+          
+        <h5>________________________________________________________<h5>
+            
+              <img src="XorO.JPG" alt="jpg" width="300" height="100" />
+            
+                  
+        <h5>________________________________________________________<h5>
+                
+                <h2>-[II]-[Sample Run]</h2>
+    <h4>
+      When you start the game the "1 player" gets the choice first where he wants to put either "X" or "O", depends on what did he choose.
+    </h4>  
+    <h3>And the game starts!<h3>
+  
+    <h5>________________________________________________________<h5>
+    
+        <img src="start.JPG" alt="jpg" width="200" height="200" />
+        
+<h4>Let's say the "1 player" has choosen the top left box so he types number "1" on the keyboard and the sign that he had choosen appears in that box.</h4> 
+    
+
+    
+    <img src="part2.JPG" alt="jpg" width="200" height="200" /> 
+    <h4>So now we can see that the sign "X" is in the box, and the game is waiting for the "2 player" to choose the box.
+    </h4>
+    <h4>And the game is keep going like that, until one of the players wins.</h4>  
+    <h5>________________________________________________________<h5>    
+        <img src="part3.JPG" alt="jpg" width="200" height="200" />
+        <img src="part4.JPG" alt="jpg" width="200" height="200" />
+        <img src="part5.JPG" alt="jpg" width="200" height="200" />
+        <img src="part6.JPG" alt="jpg" width="200" height="200" />
+        <img src="part7.JPG" alt="jpg" width="200" height="200" />
+      <h5>________________________________________________________<h5>
+          <img src="win.JPG" alt="jpg" width="400" height="400" />
+        <h3>And the player with the sign "X" won!!!</h3>
+        
+          <p>How you can see </p>
+          <p>on the "scoreboard"</p> 
+          <p>the score now is 1:0</p> 
+          <p>for the "1 player"</p>
+          <p>becuase he won the last game.</p>
+          <h5>________________________________________________________<h5>
+         
+         <h2>-[Video]-</h2>
+         <p>Here you can see properly how the game works.</p>
+         <video width="320" height="240" controls>
+            <source src="Video.webm" type="video/mp4">
+            <source src="Video.ogg" type="video/ogg">
+            </video>
+
+
+            <h2>[Planning]</h2>
+            <p>At the start in my mind I had 2 ideas of the games that I should make, first it was the "Tic Tac Toe" game and the second game was the "Nokia-Snake".</p>
+            <p>The "Nokia-Snake" game I already had made before but it had a very simple code and it wasn't very developed.</p>
+            <p>And I decided to make levels in the game to have a bit more code and a bit harder, and I spent like a day to make but something wasn't going good and the levels were the same hard. </p>
+            <p>After that I decided for every level to add obstacles and more "apples" but still something didn't work and were the same obstacles for every level and wasn't that good the game.</p>
+            <p>The "Tic Tac Toe" I had it already but the code wasn't finished so I just decided to continue the code and the project to make based on the "Tic Tac Toe".</p>
+            <p>And the idea how the project should look I took from a sample project that our teacher presented to us.</p>
+            <p>Before the game presented two options for the first player, to choose between "X" or "O", and to quit the game you could just by closing the whole program so I decided to introduce the option to quit the game as well.</p>
+            <p>And before the "scoreboard" was just a box so I decided to change it as well, and I researched for a new looking "scoreboard" and I liked this one more, that is now in the programm. And the thing is that is nothing special but it looks better.</p>
+            <p>After this changes I presented the game to the teacher and she said that "It's very good", so like that I decided to do the project based on "Tic Tac Toe" game. That now it's presented to you. </p>
+            <p>The game had to achieve the next objectives:</p>
+            <p>Work Proper</p>
+            <p>Have the possibility to play with someone</p>
+            <p>Don't have any laggs</p>
+            <p>Play with the AI of the game</p>
+            
+            <h2>-[III]-[The Coding Part]</h2>
+<h4>The game was made in the program <u>PyCharm</u>.</h4>
+        
+<img src="pycharm.jfif" alt="jfif" width="200" height=100" />
+
+<h3>What is PyCharm?</h3>
+<p>Developed by JetBrains in 2010, PyCharm is an IDE used for computer programming.</p>
+<p>Though this IDE was created for Python primarily.</p>
+<p>And it's good also, becuase  it provides code analysis, integration with VCSes <b>(Version Control Systems)</b>.</p>
+<h5>________________________________________________________<h5>
+<h3>#fun# Function to print Tic Tac Toe</h3>
+  <p>def print_tic_tac_toe(values):<p>
+    <p> print("\n")<p>
+      <p> print("\t     |     |")<p>
+        <p>print("\t  {}  |  {}  |  {}".format(values[0], values[1], values[2]))<p>
+          <p>print('\t_____|_____|_____')<p>
+
+            <p>print("\t     |     |")<p>
+              <p>print("\t  {}  |  {}  |  {}".format(values[3], values[4], values[5]))<p>
+                <p>print('\t_____|_____|_____')<p>
+
+                  <p>print("\t     |     |")<p>
+
+                    <p> print("\t  {}  |  {}  |  {}".format(values[6], values[7], values[8]))<p>
+                      <p>print("\t     |     |")<p>
+                        <p>print("\n")<p>
+
+
+                          <h3># Function to print the score-board</h3>
+<p>def print_scoreboard(score_board):</p>
+  <p>print("\t--------------------------------")<p>
+    <p>print("\t              SCOREBOARD       ")</p>
+      <p>print("\t--------------------------------")</p>
+
+        <p>players = list(score_board.keys())</p>
+          <p>print("\t   ", players[0], "\t    ", score_board[players[0]])</p>
+            <p>print("\t   ", players[1], "\t    ", score_board[players[1]])</p>
+
+              <p>print("\t--------------------------------\n")</p>
+
+
+              <h3># Function to check if any player has won</h3>
+<p>def check_win(player_pos, cur_player):</p>
+<h3># All possible winning combinations</h3>
+ <p>soln = [[1, 2, 3], [4, 5, 6], [7, 8, 9],</p>
+  <p>[1, 4, 7], [2, 5, 8], [3, 6, 9],</p>
+    <p> [1, 5, 9], [3, 5, 7]]</p>
+
+    <h3># Loop to check if any winning combination is satisfied</h3>
+    <p>for x in soln:</p>
+      <p>if all(y in player_pos[cur_player] for y in x):</p>
+    <h3> # Return True if any winning combination satisfies</h3>
+          <p> return True</p>
+          <h4># Return False if no combination is satisfied
+    <p>return False</p>
+
+
+    <h3># Function to check if the game is drawn</h3>
+<p>def check_draw(player_pos):</p>
+  <p>if len(player_pos['X']) + len(player_pos['O']) == 9:</p>
+    <p>return True</p>
+      <p> return False</p>
+
+
+      <h3># Function for a single game of Tic Tac Toe</h3>
+<p>def single_game(cur_player):</p>
+<h3># Represents the Tic Tac Toe</h3>
+    <p>values = [' ' for x in range(9)]</p>
+
+    <h3> # Stores the positions occupied by X and O</h3>
+    <p>player_pos = {'X': [], 'O': []}</p>
+
+    <h3> # Game Loop for a single game of Tic Tac Toe</h3>
+    <p>while True:</p>
+      <p> print_tic_tac_toe(values)</p>
+
+      <h3># Try exception block for MOVE input<</h3>
+        <p>try:</p>
+          <p> print("Player ", cur_player, " turn. Which box? : ", end="")</p>
+            <p>move = int(input())</p>
+              <p> except ValueError:</p>
+                <p>print("Wrong Input!!! Try Again")</p>
+                  <p>continue</p>
+
+                  <h3># Sanity check for MOVE input</h3>
+        <p>if move < 1 or move > 9:</p>
+          <p> print("Wrong Input!!! Try Again")</p>
+            <p>continue</p>
+
+            <h3># Check if the box is not occupied already</h3>
+        <p> if values[move - 1] != ' ':</p>
+          <p> print("Place already filled. Try again!!")</p>
+            <p> continue</p>
+
+            <h3># Update game information</h3>
+
+              <h3># Updating grid status</h3>
+        <p> values[move - 1] = cur_player</p>
+
+        <h3># Updating player positions</h3>
+        <p>player_pos[cur_player].append(move)</p>
+
+        <h3># Function call for checking win</h3>
+        <p> if check_win(player_pos, cur_player):</p>
+          <p> print_tic_tac_toe(values)</p>
+            <p> print("Player ", cur_player, " has won the game!!")</p>
+              <p> print("\n")</p>
+                <p> return cur_player</p>
+
+                <h3># Function call for checking draw game</h3>
+        <p> if check_draw(player_pos):</p>
+          <p> print_tic_tac_toe(values)</p>
+            <p> print("Game Drawn")</p>
+              <p> print("\n")</p>
+                <p>return 'D'</p>
+
+                <h3># Switch player moves</h3>
+        <p>if cur_player == 'X':</p>
+          <p>  cur_player = 'O'</p>
+            <p> else:</p>
+              <p>  cur_player = 'X'</p>
+
+
+                <p>if __name__ == "__main__":</p>
+
+                  <p>print("Player 1")</p>
+                    <p>player1 = input("Enter the name : ")</p>
+                      <p> print("\n")</p>
+
+                        <p>print("Player 2")</p>
+                          <p>player2 = input("Enter the name : ")</p>
+                            <p> print("\n")</p>
+
+                            <h3># Stores the player who chooses X and O</h3>
+    <p> cur_player = player1</p>
+    <h3># Stores the choice of players</h3>
+    <p>player_choice = {'X': "", 'O': ""}</p>
+    <h3># Stores the options</h3>
+    <p>options = ['X', 'O']</p>
+
+    <h3># Stores the scoreboard</h3>
+    <p> score_board = {player1: 0, player2: 0}</p>
+      <p> print_scoreboard(score_board)</p>
+
+      <h3># Game Loop for a series of Tic Tac Toe</h3>
+        <h3># The loop runs until the players quit</h3>
+    <p> while True:</p>
+
+    <h3> # Player choice Menu</h3>
+        <p>print("Turn to choose for", cur_player)</p>
+          <p> print("Enter 1 for X")</p>
+            <p>print("Enter 2 for O")</p>
+              <p>print("Enter 3 to Quit")</p>
+
+              <h3># Try exception for CHOICE input</h3>
+        <p> try:</p>
+          <p> choice = int(input())</p>
+            <p> except ValueError:</p>
+              <p> print("Wrong Input!!! Try Again\n")</p>
+                <p>  continue</p>
+
+                <h3># Conditions for player choice</h3>
+        <p>if choice == 1:</p>
+          <p> player_choice['X'] = cur_player</p>
+            <p>if cur_player == player1:</p>
+              <p>   player_choice['O'] = player2</p>
+                <p> else:</p>
+                  <p>  player_choice['O'] = player1</p>
+
+                    <p> elif choice == 2:</p>
+                      <p> player_choice['O'] = cur_player</p>
+                        <p>if cur_player == player1:</p>
+                          <p>   player_choice['X'] = player2</p>
+                            <p> else:</p>
+                              <p> player_choice['X'] = player1</p>
+
+                                <p> elif choice == 3:</p>
+                                  <p> print("Final Scores")</p>
+                                    <p> print_scoreboard(score_board)</p>
+                                      <p> break</p>
+
+                                        <p>else:</p>
+                                          <p> print("Wrong Choice!!!! Try Again\n")</p>
+
+                                          <h4># Stores the winner in a single game of Tic Tac Toe</h3>
+        <p> winner = single_game(options[choice - 1])</p>
+
+        <h3># Edits the scoreboard according to the winner</h3>
+        <p>if winner != 'D':</p>
+          <p>player_won = player_choice[winner]</p>
+            <p> score_board[player_won] = score_board[player_won] + 1</p>
+
+              <p> print_scoreboard(score_board)</p>
+
+              <h3># Switch player who chooses X or O</h3>
+        <p>if cur_player == player1:</p>
+          <p>  cur_player = player2</p>
+            <p> else:</p>
+              <p> cur_player = player1</p>
+
+              <h2>-[IV]-[Designing & How It Works]</h2>
+              <h5>__________________________________________________________________________________________________________________________</h5>
+              <img src="howitworks.JPG" alt="jpg" width="700" height="500" />
+              <h3>This is a waterflow effect.</h3>
+            <h5>__________________________________________________________________________________________________________________________</h5>
+<p>In this flowchart made by me, i introduced every step of the programm and now i'm going to explain them.</p>
+<p>When you start the game, the programm asks the players names and when the names are introduced the first player gets the choice between "X" or "O" or either to quit the game.</p>
+<p>And the game starts with the first player move.</p>
+<p>After the first player's move the programm checks for win, if its not the game continues, if its yes the game stops the answers go in the scoreboard and first player gets the choice again of "X" or "O" or to quit the game.</p>
+<p>But if the win is not presnt the game continues and second player gets the move.</p> 
+<p>After second player's move the game checks again for the win if he won answers go in the scoreboard first player gets the choice of "X" or "O" or to quit the game.  </p>
+<p>You can ask me:</p> 
+<h3>What happends if one of the players fills the space that was already filled?</h3>       
+<p>Here is the answer:</p>
+<h5>________________________________________________________<h5>    
+  <img src="placefilled.JPG" alt="jpg" width="200" height="200" />
+  <h5>________________________________________________________<h5>    
+    <p>The game says that "Place already filled. Try again!".</p>
+    <h5>________________________________________________________<h5>  
+    <h2>[Steps in Coding]</h2>
+    <h2>I</h2>
+    <h5>________________________________________________________<h5>
+    <h3>#fun# Function to print Tic Tac Toe</h3>
+    <p>def print_tic_tac_toe(values):</p>
+    <p>print("\n")</p>
+    <p>print("\t | |")</p>
+    <p>print("\t {} | {} | {}".format(values[0], values[1], values[2]))</p>
+    <p>print('\t_____|_____|_____')</p>
+    <p>print("\t | |")</p>
+    <p>print("\t {} | {} | {}".format(values[3], values[4], values[5]))</p>
+    <p>print('\t_____|_____|_____')</p>
+    <p>print("\t | |")</p>
+    <p>print("\t {} | {} | {}".format(values[6], values[7], values[8]))</p>
+    <p>print("\t | |")</p>
+    <p>print("\n")</p>
+    <h5>________________________________________________________<h5>
+  
+    <p>This function creates the background of the game with 9 quadrants in it where you can introduce "X" or "O".</p
+      <h5>________________________________________________________<h5>  
+      
+        <h2>II</h2>
+        <h3># Function to print the score-board</h3>
+<p>def print_scoreboard(score_board):</p>
+  <p>print("\t--------------------------------")<p>
+    <p>print("\t              SCOREBOARD       ")</p>
+      <p>print("\t--------------------------------")</p>
+
+        <p>players = list(score_board.keys())</p>
+          <p>print("\t   ", players[0], "\t    ", score_board[players[0]])</p>
+            <p>print("\t   ", players[1], "\t    ", score_board[players[1]])</p>
+
+              <p>print("\t--------------------------------\n")</p>
+              <h5>________________________________________________________<h5>
+  <p>This function creates the scoreboard.</p>
+  <h5>________________________________________________________<h5>
+    <h2>III</h2>
+  
+    <h3># Function to check if any player has won</h3>
+  <p>def check_win(player_pos, cur_player):</p>
+  <h3># All possible winning combinations</h3>
+   <p>soln = [[1, 2, 3], [4, 5, 6], [7, 8, 9],</p>
+    <p>[1, 4, 7], [2, 5, 8], [3, 6, 9],</p>
+      <p> [1, 5, 9], [3, 5, 7]]</p>
+  
+      <h3># Loop to check if any winning combination is satisfied</h3>
+      <p>for x in soln:</p>
+        <p>if all(y in player_pos[cur_player] for y in x):</p>
+      <h3> # Return True if any winning combination satisfies</h3>
+            <p> return True</p>
+            <h4># Return False if no combination is satisfied
+      <p>return False</p>
+  
+  
+      <h3># Function to check if the game is drawn</h3>
+  <p>def check_draw(player_pos):</p>
+    <p>if len(player_pos['X']) + len(player_pos['O']) == 9:</p>
+      <p>return True</p>
+        <p> return False</p>
+        <h5>________________________________________________________<h5>
+          <p>All this functions work to check the winning combinations and if any of the players won the game or if the game is a draw.</p>
+          <p>The won is present when the game checked the possible winning combinations and and one of the combinations is present.</p> 
+          <p>If the won is not present the game gives the move to the next player or to a draw game if the quadrants are fully filled and none of the combinations is present.</p>
+
+<h5>________________________________________________________<h5>
+    <h2>IV</h2>
+    <h3> # Stores the positions occupied by X and O</h3>
+    <p>player_pos = {'X': [], 'O': []}</p>
+    <h3># Try exception block for MOVE input<</h3>
+        <p>try:</p>
+          <p> print("Player ", cur_player, " turn. Which box? : ", end="")</p>
+            <p>move = int(input())</p>
+              <p> except ValueError:</p>
+                <p>print("Wrong Input!!! Try Again")</p>
+                  <p>continue</p>
+    <h5>________________________________________________________<h5>
+      <p>This function works to store the filled quadrants and do not let the players to store anything more in there.</p>
+      <p>And if you try to insert another sign there the game will say:<h4>("Wrong Input!!! Try Again").</h4></p> 
+
+      <h5>________________________________________________________<h5>
+        <h2>V</h2>
+        <h3># Sanity check for MOVE input</h3>
+        <p>if move < 1 or move > 9:</p>
+          <p> print("Wrong Input!!! Try Again")</p>
+            <p>continue</p>
+
+            <h3># Check if the box is not occupied already</h3>
+        <p> if values[move - 1] != ' ':</p>
+          <p> print("Place already filled. Try again!!")</p>
+            <p> continue</p>
+            <h5>________________________________________________________<h5>
+          <p>First function checks if the player chooses the right box where to introduce his sign(It should be between 1 & 9 other choice dosen't work).</p>
+          <p>The second function checks if the box is not filled already.</p>    
+          <h5>________________________________________________________<h5>
+              <h2>VI</h2>
+            <h3># Update game information</h3>
+            <h3># Updating grid status</h3>
+            <p> values[move - 1] = cur_player</p>
+    
+            <h3># Updating player positions</h3>
+            <p>player_pos[cur_player].append(move)</p>
+            <h5>________________________________________________________<h5>
+              <p>This functions update the game's changes.</p>
+              <h5>________________________________________________________<h5>
+              <h2>VII</h2>
+              <h3># Switch player moves</h3>
+              <p>if cur_player == 'X':</p>
+                <p>  cur_player = 'O'</p>
+                  <p> else:</p>
+                    <p>  cur_player = 'X'</p>
+      
+      
+                      <p>if __name__ == "__main__":</p>
+      
+                        <p>print("Player 1")</p>
+                          <p>player1 = input("Enter the name : ")</p>
+                            <p> print("\n")</p>
+      
+                              <p>print("Player 2")</p>
+                                <p>player2 = input("Enter the name : ")</p>
+                                  <p> print("\n")</p>
+      
+                                  <h3># Stores the player who chooses X and O</h3>
+          <p> cur_player = player1</p>
+          <h3># Stores the choice of players</h3>
+          <p>player_choice = {'X': "", 'O': ""}</p>
+          <h3># Stores the options</h3>
+          <p>options = ['X', 'O']</p>
+      
+          <h3># Stores the scoreboard</h3>
+          <p> score_board = {player1: 0, player2: 0}</p>
+            <p> print_scoreboard(score_board)</p>
+            <h5>________________________________________________________<h5>
+        <p>This functions work to ask and to store the player's names & player's choices.</p>
+        <h5>________________________________________________________<h5>
+            <h2>VIII</h2>
+            <h3># Stores the scoreboard</h3>
+            <p> score_board = {player1: 0, player2: 0}</p>
+              <p> print_scoreboard(score_board)</p>
+              <h5>________________________________________________________<h5>  
+           <p>This function works to store the score in the scoreboard.</p>      
+           <h5>________________________________________________________<h5> 
+              <h2>IX</h2> 
+              <h4># Stores the winner in a single game of Tic Tac Toe</h3>
+                <p> winner = single_game(options[choice - 1])</p>
+        
+                <h3># Edits the scoreboard according to the winner</h3>
+                <p>if winner != 'D':</p>
+                  <p>player_won = player_choice[winner]</p>
+                    <p> score_board[player_won] = score_board[player_won] + 1</p>
+        
+                      <p> print_scoreboard(score_board)</p>
+                      <h5>________________________________________________________<h5> 
+                        <p>This functions work together to store the winner from the last game and to update the score in the scoreboard for the next game.</p>
+                        <h5>________________________________________________________<h5> 
+
+      <h2>[Evaluation]</h2>
+          <p>How I said in the [Planning] section the initial programm was a bit different than the final product, because I changed the interface of the scoreboard and I added the choice of quiting the game.</p>
+          <p>The game achieved nearly all my objectives and the single one that I couldn't manage is "playing with the AI".</p>
+          <p>Playing with the AI of the game for me was a bit hard to introduce because the code wasn't good and was lagging and I just excluded this from the game and to make it a bit yeasier and more accesible.</p>
+          <p>For the future to develop this game I could introduce the method of playing with the AI of the game after getting some more experience I think this won't be a problem for the future.</p>
+          <p>Second thing that a could add will be the memoring of the game of the games after you quit the game and get in again and there to get options of continuing the last games or to start a new one with a different player.</p>
+          <p>This one is going to be harder to make it in real but with the experience I should manage that and defenetly to add in.</p>
+          
+          <h2>[References]</h2>
+         <a href = "https://inventwithpython.com/invent4thed/chapter10.html"> Sample Project</a>
+         <p>This project was one of the references that I used to make my project, I got some ideas how my project should look and be arranged.</p>
+         <p>And I got this as my refernces because is a project based on the same game as I made so it was a good model for mine.</p>
+
+         <h2>[Summary]</h2>
+         <h5>____________________________________________________________________________________________<h5>    
+          <img src="wordcount1.JPG" alt="jpg" width="500" height="300" />
+          <h5>____________________________________________________________________________________________<h5>  
+        </body>
+</html>
